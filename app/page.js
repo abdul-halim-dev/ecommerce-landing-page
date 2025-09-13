@@ -2,6 +2,9 @@ import React from 'react'
 import Videosection from './components/videosection'
 import Productcard from './components/productcard'
 import Details from './components/details'
+import Orderpage from './components/Orderpage'
+ 
+ 
 
 const page = () => {
   return (
@@ -10,6 +13,8 @@ const page = () => {
  <Videosection/>
  <Productcard/>
  <Details/>
+ <Orderpage/>
+ 
     </div>
   )
 }
